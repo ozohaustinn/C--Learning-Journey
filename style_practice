@@ -1,0 +1,32 @@
+#include <iostream>
+
+using namespace std;
+
+class Calc{
+    public:
+
+        //input related to x and y
+
+        int x, y;
+
+        void do_math(){
+            //Perform a sum of the two numbers that is x and y
+            x = 10;
+            y = 20;
+            int result = x + y;
+            cout << "result is " << result <<  endl;
+
+            // Check to see if result is a big number or not 
+
+            if( result > 25){
+                cout << "big number" << endl;
+            } else { 
+                cout << "small number" << endl;
+            }
+        }
+};
+int main() {
+    Calc c;
+    c.do_math();
+    return 0;
+}
