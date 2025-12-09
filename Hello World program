@@ -1,0 +1,8 @@
+#include <iostream>
+
+// My first Hello world program Augustine Ozoemena
+
+int main(){
+    std :: cout << "Hello! World" << std :: endl;
+    return 0;
+}
